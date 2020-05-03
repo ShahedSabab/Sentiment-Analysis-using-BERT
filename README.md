@@ -8,7 +8,7 @@ The objective of this project is sentiment analysis (i.e., Positive, Neutral, Ne
 • 80 % accuracy is achieved.<br>
 
 # Performance
-<img src="performance.PNG" class="center">
+<img src="performance.PNG" alt="centered image">
 
 # Confusion Matrix
 <img src="confusion_matrix.PNG" width="70%" class="center">
