@@ -9,7 +9,13 @@ The objective of this project is sentiment analysis (i.e., Positive, Neutral, Ne
 
 # Performance
 ![](performance.PNG)
-![](confusion_matrix.PNG)
+
+# Confusion Matrix
+![](confusion_matrix.PNG)  {
+  width: 70%;
+  border: none;
+  background: none;
+}
 
 # Dataset 
 Please check app_reviews.csv for the collected dataset. The app_info.csv file has the data on the selected apps.
