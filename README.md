@@ -1,9 +1,19 @@
 # Sentiment-Analysis-using-BERT
-The objective of this project is sentiment analysis (i.e., Positive, Neutral, Negative) from the popular health and fitness app reviews. For this task, app reviews are collected from the google play store. 10 popular health and fitness apps are chosen. All around 12000 most recent reviews are collected.
+The objective of this project is sentiment analysis (i.e., Positive, Neutral, Negative) from the popular health and fitness app reviews. For this task, app reviews are collected from the google play store. 10 popular health and fitness apps are chosen. All around 12000 most recent reviews are collected. Ratings are considered as the measure/label of positive, negative and neutral sentiment of the reviews. The collected data are preprocessed and trained using a transformer model. Overall, 80% accuracy is achieved. 
 ![](apps.png)
-The collected data are preprocessed and trained using a transformer model. Overall, 80% accuracy is achieved.
 
-• The data is collected using google-play-scrapper.
-• For preprocessing and training the model BERT in combination with 
+• The data is collected using google-play-scrapper.<br>
+• The model is trained using Pytorch. <br>
+• For preprocessing and training the model BERT (bert-base from Hugging Face) in combination with a few dropout and dense layers are used<br>
+• 80 % accuracy is achieved.<br>
 
 # Performance
+![](performance.PNG)
+![](confusion_matrix.PNG)
+
+# Dataset 
+Please check app_reviews.csv for the collected dataset.
+
+# How to run
+Please check scrapper.py file which has been used to fetch the reviews from google play. Also, check sentiment_analysis.ipynb for preprocessing and model generation. 
+
