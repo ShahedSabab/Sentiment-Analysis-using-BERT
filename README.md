@@ -1,2 +1,4 @@
 # Sentiment-Analysis-using-BERT
-The project collects popular health and fitness app reviews and builds a classifier which can detect sentiments from the review texts.
+The objective of this project is sentiment analysis from the popular health and fitness app reviews. For this task, app reviews are collected from the google play store. 10 popular health and fitness apps are chosen. 
+
+![]()
