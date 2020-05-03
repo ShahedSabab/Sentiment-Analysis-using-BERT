@@ -8,10 +8,10 @@ The objective of this project is sentiment analysis (i.e., Positive, Neutral, Ne
 • 80 % accuracy is achieved.<br>
 
 # Performance
-<img src="performance.PNG">
+<img src="performance.PNG" class="center">
 
 # Confusion Matrix
-<img src="confusion_matrix.PNG" width="70%">
+<img src="confusion_matrix.PNG" width="70%" class="center">
 
 # Dataset 
 Please check app_reviews.csv for the collected dataset. The app_info.csv file has the data on the selected apps.
