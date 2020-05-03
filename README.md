@@ -12,7 +12,7 @@ The objective of this project is sentiment analysis (i.e., Positive, Neutral, Ne
 ![](confusion_matrix.PNG)
 
 # Dataset 
-Please check app_reviews.csv for the collected dataset.
+Please check app_reviews.csv for the collected dataset. The app_info.csv file has the data on the selected apps.
 
 # How to run
 Please check scrapper.py file which has been used to fetch the reviews from google play. Also, check sentiment_analysis.ipynb for preprocessing and model generation. 
